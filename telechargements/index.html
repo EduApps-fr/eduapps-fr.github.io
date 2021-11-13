@@ -6,6 +6,30 @@
     <title>EduApps - Téléchargements</title>
     <link href="style.css" rel="stylesheet" type="text/css"/>
     <link href="downloadbutton.css" rel="stylesheet" type="text/css"/>
+    <script>
+      function getOS() {
+        var userAgent = window.navigator.userAgent,
+            platform = window.navigator.platform,
+            macosPlatforms = ['Macintosh', 'MacIntel', 'MacPPC', 'Mac68K'],
+            windowsPlatforms = ['Win32', 'Win64', 'Windows', 'WinCE'],
+            iosPlatforms = ['iPhone', 'iPad', 'iPod'],
+            os = null;
+
+        if (macosPlatforms.indexOf(platform) !== -1) {
+          os = 'Mac OS';
+        } else if (iosPlatforms.indexOf(platform) !== -1) {
+          os = 'iOS';
+        } else if (windowsPlatforms.indexOf(platform) !== -1) {
+          os = 'Windows';
+        } else if (/Android/.test(userAgent)) {
+          os = 'Android';
+        } else if (!os && /Linux/.test(platform)) {
+          os = 'Linux';
+        }
+
+        return os;
+      }
+    </script>
     <meta name="keywords" content="Site ; EduApps"/>
   </head>
   <body id="body">
@@ -20,10 +44,66 @@
     </header>
     <div="main">
       <h1 align="center"><b>EduApps - Téléchargements</b></h1>
-      <section class="bulle">
-        <iframe src="eduapps-fr.github.io/telechargements/quiz/home.html"/>
+      <section class="bulle" id="windows">
+        <h1 align="center">Windows</h1>
       </section>
     </div>
+    <br>
+    <br>
+    
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+      <section class="bulle" id="mac">
+        <h1 align="center">Windows</h1>
+      </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
     <section class="footer" color="white" background-color="black">
       <p align="center">EduApps | LearnHistoire , LearnEnglish, LearnMaths et PhysixChimix apparitentent à EduApps</p>
     </section>
