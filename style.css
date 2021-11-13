@@ -20,6 +20,11 @@ color: white;
   box-shadow: black;
   border-radius: 10px 10px 10px 10px;
 }
+.sb{
+  background-color: #7cb7ff;
+  box-shadow: black;
+  border-radius: 10px 10px 10px 10px;
+}
 #menufond{
 width: 100%;
 background: linear-gradient(#7cb7ff, #1b81ff);
